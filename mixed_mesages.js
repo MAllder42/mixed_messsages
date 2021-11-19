@@ -78,5 +78,5 @@ function draw () {
 
     const future = Math.floor(Math.random() *13)
 
-console.log(`Your past is ${(tarot_deck[past].name)} which means ${(tarot_deck[past]).past}`) 
+    console.log(`Your past is ${(tarot_deck[past].name)} which means ${(tarot_deck[past]).past}`) 
 }
