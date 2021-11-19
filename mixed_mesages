@@ -61,12 +61,17 @@ const wait = {
 }
 const tarot_deck = {
     1:{
+        name:'sun',
         past:"something turbulent",
         present: "something changing"
     },2:filler,3:thing,4:stuff,5:we,6:should,7:cut,8:down,9:hmm,10:but,11:nah,12:later,13:wait}
 
-const past = 1 //Math.floor(Math.random() *13)
-const present = Math.floor(Math.random() *13)
-const future = Math.floor(Math.random() *13)
+function draw () {
+    const past = Math.floor(Math.random() *13)
+
+    const present = Math.floor(Math.random() *13)
+
+    const future = Math.floor(Math.random() *13)
 
 console.log((tarot_deck[past]).past)
+}
