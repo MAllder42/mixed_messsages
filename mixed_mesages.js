@@ -1,12 +1,5 @@
-// const sun = 
-const filler = {
-    
-}
 const thing = {
-    name: 'messed up',
-    past:'blah',
-    present:'blah blah',
-    future:'blah blah blah'
+    
 }
 const stuff = {
     name: 'sigh',
@@ -88,7 +81,13 @@ const tarot_deck = {
         present:'blah blah',
         future:'blah blah blah'
     },
-    3:thing,4:stuff,5:we,6:should,7:cut,8:down,9:hmm,10:but,11:nah,12:later,13:wait}
+    3:{
+        name: 'messed up',
+        past:'blah',
+        present:'blah blah',
+        future:'blah blah blah'
+    },
+    4:stuff,5:we,6:should,7:cut,8:down,9:hmm,10:but,11:nah,12:later,13:wait}
 
 function draw () {
     const past = Math.floor(Math.random() *3)
