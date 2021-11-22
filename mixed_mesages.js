@@ -1,52 +1,5 @@
- 
-const we = {
-    name: 'mistakes',
-    past:'blah',
-    present:'blah blah',
-    future:'blah blah blah'
-}
-const should = {
-    name: 'I was wrong',
-    past:'blah',
-    present:'blah blah',
-    future:'blah blah blah'
-}
-const cut = {
-    name: 'something',
-    past:'blah',
-    present:'blah blah',
-    future:'blah blah blah'
-}
-const down = {
-    name: 'anything',
-    past:'blah',
-    present:'blah blah',
-    future:'blah blah blah'
-}
-const hmm = {
-    name: 'Help!',
-    past:'blah',
-    present:'blah blah',
-    future:'blah blah blah'
-}
-const but = {
-    name: 'why!?0',
-    past:'blah',
-    present:'blah blah',
-    future:'blah blah blah'
-}
-const nah = {
-    name: 'eventually',
-    past:'blah',
-    present:'blah blah',
-    future:'blah blah blah'
-}
-const later = {
-    name: 'something will have to change later.',
-    past:'blah',
-    present:'blah blah',
-    future:'blah blah blah'
-}
+
+
 const tarot_deck = {
     0: {
         name: 'Fool',
@@ -78,12 +31,56 @@ const tarot_deck = {
         present:'blah blah',
         future:'blah blah blah'
     },
-    5:we,6:should,7:cut,8:down,9:hmm,10:but,11:nah,12:later,13:{
+    5:{
+        name: 'The Hierophant',
+        past:'blah',
+        present:'blah blah',
+        future:'blah blah blah'
+    },
+    6:{
+        name: 'The Lovers',
+        past:'blah',
+        present:'blah blah',
+        future:'blah blah blah'
+    },
+    7:{
+        name: 'The Chariot',
+        past:'blah',
+        present:'blah blah',
+        future:'blah blah blah'
+    },
+    8:{
+        name: 'The Hermit',
+        past:'blah',
+        present:'blah blah',
+        future:'blah blah blah'
+    },
+    9:{
+        name: 'Wheel of Fortune',
+        past:'blah',
+        present:'blah blah',
+        future:'blah blah blah'
+    },
+    10:{
+        name: 'The Hanged Man',
+        past:'blah',
+        present:'blah blah',
+        future:'blah blah blah'
+    },
+    11:{
         name: 'Death',
         past:['You have overcome and experienced great strife letting it change your for the better','You have endured life without letting it affect you for the better'],
         present:'blah blah',
         future:'blah blah blah'
-    }}
+    },
+    12:{
+        name: 'Temperance',
+        past:'blah',
+        present:'blah blah',
+        future:'blah blah blah'
+    }
+    
+}
 
 function draw () {
     const past = Math.floor(Math.random() *3)
@@ -95,3 +92,4 @@ function draw () {
 
     console.log(`Your past is ${(tarot_deck[past].name)} which means ${(tarot_deck[past]).past[upordown]} and your present card is ${tarot_deck[present].name} meaning that ${tarot_deck[present].present} and finally your future is ${tarot_deck[future].name} which means that ${tarot_deck[future].future}`) 
 }
+draw()
