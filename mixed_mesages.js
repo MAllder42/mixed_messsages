@@ -47,23 +47,16 @@ const later = {
     present:'blah blah',
     future:'blah blah blah'
 }
-const wait = {
-    name: 'doesn\'t exist',
-    past:'blah',
-    present:'blah blah',
-    future:'blah blah blah'
-}
 const tarot_deck = {
     0: {
-        //this one is actually fool you fool
-        name: 'test',
-        past: ['something is wrong','son of a -'],
+        name: 'Fool',
+        past: ["you had lessons you had to learn", "you had lessons you failed to learn"],
         present: 'indexes start at 0',
         future: 'always have always will'
     },
     1:{
-        name:'Fool',
-        past: ["you had lessons you had to learn", "you had lessons you failed to learn"],
+        name:'The Magician',
+        past: ['You have seen your desires made manifest','You have let your desires keep you from your responsibilities'],
         present: "there is something",
         future: 'we have so much to do in here'
     },
@@ -75,7 +68,7 @@ const tarot_deck = {
     },
     3:{
         name: 'messed up',
-        past:'blah',
+        past:['blah','should maybe get actual things in here soon'],
         present:'blah blah',
         future:'blah blah blah'
     },
@@ -85,7 +78,12 @@ const tarot_deck = {
         present:'blah blah',
         future:'blah blah blah'
     },
-    5:we,6:should,7:cut,8:down,9:hmm,10:but,11:nah,12:later,13:wait}
+    5:we,6:should,7:cut,8:down,9:hmm,10:but,11:nah,12:later,13:{
+        name: 'Death',
+        past:['You have overcome and experienced great strife letting it change your for the better','You have endured life without letting it affect you for the better'],
+        present:'blah blah',
+        future:'blah blah blah'
+    }}
 
 function draw () {
     const past = Math.floor(Math.random() *3)
