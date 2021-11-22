@@ -90,7 +90,7 @@ const tarot_deck = {
 
 function draw () {
     const past = Math.floor(Math.random() *3)
-    const upordown = Math.ceil(Math.random() *2)
+    const upordown = Math.floor(Math.random() *2)
     console.log(upordown)
     const present = Math.floor(Math.random() *13)
 
