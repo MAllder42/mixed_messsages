@@ -1,12 +1,4 @@
-const thing = {
-    
-}
-const stuff = {
-    name: 'sigh',
-    past:'blah',
-    present:'blah blah',
-    future:'blah blah blah'
-}
+ 
 const we = {
     name: 'mistakes',
     past:'blah',
@@ -56,7 +48,7 @@ const later = {
     future:'blah blah blah'
 }
 const wait = {
-    name: 'alot of things',
+    name: 'doesn\'t exist',
     past:'blah',
     present:'blah blah',
     future:'blah blah blah'
@@ -87,12 +79,18 @@ const tarot_deck = {
         present:'blah blah',
         future:'blah blah blah'
     },
-    4:stuff,5:we,6:should,7:cut,8:down,9:hmm,10:but,11:nah,12:later,13:wait}
+    4:{
+        name: 'sigh',
+        past:'blah',
+        present:'blah blah',
+        future:'blah blah blah'
+    },
+    5:we,6:should,7:cut,8:down,9:hmm,10:but,11:nah,12:later,13:wait}
 
 function draw () {
     const past = Math.floor(Math.random() *3)
     const upordown = Math.floor(Math.random() *2)
-    console.log(upordown)
+    // console.log(upordown)
     const present = Math.floor(Math.random() *13)
 
     const future = Math.floor(Math.random() *13)
