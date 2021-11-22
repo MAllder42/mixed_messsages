@@ -61,9 +61,9 @@ const wait = {
 }
 const tarot_deck = {
     1:{
-        name:'sun',
-        past:"something turbulent",
-        present: "something changing",
+        name:'Fool',
+        past: "you had lessons you had to learn",
+        present: "there is something",
         future: 'we have so much to do in here'
     },
     2:{
@@ -78,5 +78,5 @@ function draw () {
 
     const future = Math.floor(Math.random() *13)
 
-    console.log(`Your past is ${(tarot_deck[past].name)} which means ${(tarot_deck[past]).past}`) 
+    console.log(`Your past is ${(tarot_deck[past].name)} which means ${(tarot_deck[past]).past} and your present card is ${tarot_deck[present].name} meaning that ${tarot_deck[present].present} and finally your future is ${tarot_deck[future].name} which means that ${tarot_deck[future].future}`) 
 }
