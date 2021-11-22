@@ -72,7 +72,9 @@ const tarot_deck = {
     0: {
         //this one is actually fool you fool
         name: 'test',
-        past: ['something is wrong','son of a -']
+        past: ['something is wrong','son of a -'],
+        present: 'indexes start at 0',
+        future: 'always have always will'
     },
     1:{
         name:'Fool',
