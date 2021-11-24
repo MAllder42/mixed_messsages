@@ -111,27 +111,27 @@ const tarot_deck = {
     },
     18: {
         name: 'The Moon',
-        past: ['',''],
-        present: ['',''],
-        future: ['','']
+        past: ['u','d'],
+        present: ['u','d'],
+        future: ['u','d']
     },
     19: {
         name: "The Sun",
-        past: [''],
-        present: ['',''],
-        future: ['','']
+        past: ['u','d'],
+        present: ['u','d'],
+        future: ['u','d']
     },
     20: {
         name: 'Judgement',
-        past:['',''],
-        present: ['',''],
-        future:['','']
+        past:['u','d'],
+        present: ['u','d'],
+        future:['u','d']
     },
     21:{
         name: 'The World',
-        past: ['',''],
-        present: ['',''],
-        future: ['','']
+        past: ['u','d'],
+        present: ['u','d'],
+        future: ['u','d']
     }
     
 }
