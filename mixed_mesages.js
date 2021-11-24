@@ -144,6 +144,6 @@ function draw () {
     const presordown = Math.floor(Math.random() *2)
     const future = Math.floor(Math.random() *22)
     const fuordown = Math.floor(Math.random() *2)
-    console.log(`Your past is ${(tarot_deck[past].name)} which means ${(tarot_deck[past]).past[upordown]} and your present card is ${tarot_deck[present].name} meaning that ${tarot_deck[present].present[presordown]} and finally your future is ${tarot_deck[future].name} which means that ${tarot_deck[future].future[fuordown]}`) 
+    console.log(`Your past is ${(tarot_deck[past].name)} which means ${(tarot_deck[past]).past[upordown]} and your present card is ${tarot_deck[present].name} meaning ${tarot_deck[present].present[presordown]} and finally your future is ${tarot_deck[future].name} which means that ${tarot_deck[future].future[fuordown]}`) 
 }
 draw()
